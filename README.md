@@ -1,6 +1,6 @@
 # Under Construction #
 
-AutoConfig is currently under construction (The code is need to be re-organized). We will release the clean version soon!
+AutoConfig is currently under construction (the code is need to be re-organized). We will release the clean version soon!
 
 # AutoConfig #
 
