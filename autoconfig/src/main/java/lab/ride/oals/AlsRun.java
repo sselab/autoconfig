@@ -14,6 +14,6 @@ public class AlsRun {
 //        Oals.main(new String[]{"app1.properties", "1"});
 //        Oals.main(new String[]{"app2.properties", "2"});
 //        Oals7.main(new String[]{"app.properties", "0"});
-        Oals9.main(new String[]{"app.properties"});
+        AutoConfig.main(new String[]{"app.properties"});
     }
 }
