@@ -15,13 +15,13 @@
  * permissions and limitations under the License. See accompanying
  * LICENSE file.
  */
-package cn.ict.zyq.bestConf.bestConf;
+package bestConf;
 
-import cn.ict.zyq.bestConf.bestConf.optimizer.Optimization;
-import cn.ict.zyq.bestConf.bestConf.sampler.ConfigSampler;
-import cn.ict.zyq.bestConf.bestConf.sampler.DDSSampler;
-import cn.ict.zyq.bestConf.util.DataIOFile;
-import cn.ict.zyq.bestConf.util.TxtFileOperation;
+import bestConf.optimizer.Optimization;
+import bestConf.sampler.ConfigSampler;
+import bestConf.sampler.DDSSampler;
+import bestConf.util.DataIOFile;
+import bestConf.util.TxtFileOperation;
 import org.ho.yaml.Yaml;
 import weka.core.*;
 

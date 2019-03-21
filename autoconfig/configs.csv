@@ -1,0 +1,12 @@
+property,type,step,range,unit
+num.network.threads,series,1,1-20,
+num.io.threads,series,1,1-24,
+queued.max.requests,series,1,1-100,
+num.replica.fetchers,series,1,1-20,
+socket.receive.buffer.bytes,series,1,1-20,
+socket.send.buffer.bytes,series,1,1-20,
+socket.request.max.bytes,series,1,1-30,
+buffer.memory,series,1,1-48,
+batch.size,series,1,1-64,
+linger.ms,series,1,0-100,
+compression.type,enum,,none gzip snappy lz4,

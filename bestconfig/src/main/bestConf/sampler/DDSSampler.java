@@ -15,7 +15,7 @@
  * permissions and limitations under the License. See accompanying
  * LICENSE file.
  */
-package cn.ict.zyq.bestConf.bestConf.sampler;
+package bestConf.sampler;
 
 import weka.core.Attribute;
 import weka.core.DenseInstance;

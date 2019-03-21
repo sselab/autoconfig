@@ -1,0 +1,11 @@
+num.network.threads:3
+num.io.threads:8
+queued.max.requests:10
+num.replica.fetchers:1
+socket.receive.buffer.bytes:10
+socket.send.buffer.bytes:10
+socket.request.max.bytes:10
+buffer.memory:16
+batch.size:4
+linger.ms:0
+compression.type:0

@@ -15,16 +15,16 @@
  * permissions and limitations under the License. See accompanying
  * LICENSE file.
  */
-package cn.ict.zyq.bestConf.bestConf;
+package bestConf;
 
-import cn.ict.zyq.bestConf.COMT2.COMT2;
-import cn.ict.zyq.bestConf.COMT2.UnlabledTrainingInstanceGen2;
-import cn.ict.zyq.bestConf.bestConf.optimizer.Optimization;
-import cn.ict.zyq.bestConf.bestConf.sysmanipulator.ClusterManager;
-import cn.ict.zyq.bestConf.cluster.Main.AutoTestAdjust;
-import cn.ict.zyq.bestConf.cluster.Utils.PropertiesUtil;
-import cn.ict.zyq.bestConf.util.DataIOFile;
-import cn.ict.zyq.bestConf.util.LHSInitializer;
+import bestConf.COMT2.COMT2;
+import bestConf.COMT2.UnlabledTrainingInstanceGen2;
+import bestConf.optimizer.Optimization;
+import bestConf.sysmanipulator.ClusterManager;
+import bestConf.cluster.Main.AutoTestAdjust;
+import bestConf.cluster.Utils.PropertiesUtil;
+import bestConf.util.DataIOFile;
+import bestConf.util.LHSInitializer;
 import org.ho.yaml.Yaml;
 import weka.attributeSelection.PrincipalComponents;
 import weka.classifiers.evaluation.Evaluation;
@@ -280,7 +280,9 @@ public class BestConf {
 	 * 				1 for RRS with pooled points
 	 * 				4 for RRS over COMT2 model
 	 * 				others for a test
+	 * 				String[] args 0 ./data/bestconf.properties 18000
 	 */
+
 	public static void main(String[] args) {
 		int method = 0;
 		String preLoadDataPath = null;

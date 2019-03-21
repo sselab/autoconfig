@@ -1,6 +1,5 @@
 import Config
 import os
-import Excel
 import re
 import RemoteSSH
 import time

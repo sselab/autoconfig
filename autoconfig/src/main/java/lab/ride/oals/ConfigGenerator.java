@@ -225,10 +225,8 @@ public class ConfigGenerator {
                 low = parameter.getCurrentLow();
                 high = parameter.getCurrentHigh();
             }
-//            double interval = (high - low) / k;
-
-            double d =  PearsonCorrelation.getPearsonCorrelationScore(x,y);
-            List<Double> points = LHS.getPoints(d,k,low,high);
+            double a =  PearsonCorrelation.getPearsonCorrelationScore(x,y);
+            List<Double> points = LHS.getPoints(a,k,1,low,high);
             for(int i = 0; i < k; i++){
                 kRandom.add(points.get(i));
             }

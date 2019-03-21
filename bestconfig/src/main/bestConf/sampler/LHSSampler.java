@@ -15,19 +15,20 @@
  * permissions and limitations under the License. See accompanying
  * LICENSE file.
  */
-package cn.ict.zyq.bestConf.bestConf.sampler;
+package bestConf.sampler;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.Random;
 
+import bestConf.sampler.ConfigSampler;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.Instances;
 import weka.core.ProtectedProperties;
 
-public class LHSSampler extends ConfigSampler{
+public class LHSSampler extends ConfigSampler {
 	
 	private static Random uniRand = new Random(System.nanoTime());
 	

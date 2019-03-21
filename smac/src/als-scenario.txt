@@ -1,0 +1,5 @@
+use-instances = false
+runObj = QUALITY
+numberOfRunsLimit = 120
+pcs-file = D:\PycharmProjects\KafkaPythonSMAC\params.pcs
+algo =python D:\PycharmProjects\KafkaPythonSMAC\als.py

@@ -15,7 +15,7 @@
  * permissions and limitations under the License. See accompanying
  * LICENSE file.
  */
-package cn.ict.zyq.bestConf.bestConf.optimizer;
+package bestConf.optimizer;
 
 public interface Optimization {
 	public void optimize(String preLoadDataPath);

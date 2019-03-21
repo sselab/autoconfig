@@ -234,11 +234,6 @@ public class Oals9 {
             ans.add(l.get(i).getKey());
         }
         return ans;
-//        Arrays.sort(weight);
-//        for(int i=0;i<2;i++){
-//            ans.add(configs.get(weight[configs.size()-i-1]));
-//        }
-//        return ans;
     }
 
 }

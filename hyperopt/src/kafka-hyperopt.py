@@ -6,30 +6,13 @@ from subprocess import Popen, PIPE
 
 import Command
 import time
-defaultConfPath = "/home/cloud/bayes_op/smac-v2.10.03-master-778/example_scenarios/spark-als/spark.conf"
-targetConfPath = "/home/cloud/HiBench-master/conf/spark.conf"
-cmd = "/home/cloud/HiBench-master/bin/workloads/ml/als/spark/run.sh"
+
 starttime = time.time()
-# defaultConfPath = "spark.conf"
-# targetConfPath = "hh.conf"
 
 def copyFile(source, target, configs):
     open(target, "w").write(open(source, "r").read())
     open(target, "a").write(configs)
 
-def changeConfig(configs):
-    configString = ""
-    configString += ("\n" + "spark.memory.fraction" + " " + str(configs[0]))
-    configString += ("\n" + "spark.memory.storageFraction" + " " + str(configs[1]))
-    configString += ("\n" + "spark.task.cpus" + " " + str(configs[2]))
-    configString += ("\n" + "spark.shuffle.compress" + " " + configs[3])
-    configString += ("\n" + "spark.shuffle.spill.compress" + " " + configs[4])
-    configString += ("\n" + "spark.reducer.maxSizeInFlight" + " " + str((configs[5] + 8)) + "m")
-    configString += ("\n" + "spark.shuffle.file.buffer" + " " + str((configs[6] + 8)) + "k")
-    configString += ("\n" + "spark.rdd.compress" + " " + configs[7])
-    configString += ("\n" + "spark.io.compression.codec" + " " + configs[8])
-    configString += ("\n" + "spark.serializer" + " " + configs[9])
-    copyFile(defaultConfPath, targetConfPath, configString)
 
 
 def objective(args):

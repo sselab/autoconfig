@@ -15,7 +15,7 @@
  * permissions and limitations under the License. See accompanying
  * LICENSE file.
  */
-package cn.ict.zyq.bestConf.bestConf.sysmanipulator;
+package bestConf.sysmanipulator;
 
 import java.util.Map;
 

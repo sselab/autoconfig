@@ -1,11 +1,10 @@
 package lab.ride.model;
 
-import lab.ride.crawler.UrlContentGetter;
-import lab.ride.entity.ApplicationEnvironmentInfo;
+
 import lab.ride.entity.ApplicationInfo;
 import lab.ride.entity.Record;
 import lab.ride.parameter.ParameterUtils;
-import lab.ride.process.ChangeFiles;
+
 import lab.ride.record.CSVWriter;
 import lab.ride.record.ObjectRW;
 import org.slf4j.Logger;
